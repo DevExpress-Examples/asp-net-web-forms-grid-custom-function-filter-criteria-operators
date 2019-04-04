@@ -4,7 +4,7 @@
 * [CriteriaPatcherBase.cs](./CS/App_Code/CriteriaPatcherBase.cs) (VB: [CriteriaPatcherBase.vb](./VB/App_Code/CriteriaPatcherBase.vb))
 * [CriteriaVisitor.cs](./CS/App_Code/CriteriaVisitor.cs) (VB: [CriteriaVisitor.vb](./VB/App_Code/CriteriaVisitor.vb))
 * [MyCustomFunctionOperator.cs](./CS/App_Code/MyCustomFunctionOperator.cs) (VB: [MyCustomFunctionOperator.vb](./VB/App_Code/MyCustomFunctionOperator.vb))
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to apply Custom Function Filter Criteria Operator
