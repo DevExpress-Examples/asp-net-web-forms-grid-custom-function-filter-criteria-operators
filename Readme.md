@@ -8,6 +8,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to apply Custom Function Filter Criteria Operator
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t546944/)**
+<!-- run online end -->
 
 
 <p>Some complicated filter cases require visiting every leaf of the filter criteria tree when a <a href="https://documentation.devexpress.com/eXpressAppFramework/113480/Concepts/Filtering/Custom-Function-Criteria-Operators">custom function criteria operator</a> is used. <br>This example shows how it can be implemented via <a href="https://www.devexpress.com/Support/Center/Question/Details/T320172/the-base-implementation-of-the-iclientcriteriavisitor-interface-for-the-criteriaoperator">CriteriaPatchBase's</a> class descendant.<br>The main idea is to operate with ASPxGridView's <a href="https://documentation.devexpress.com/AspNet/DevExpressWebASPxGridBase_FilterExpressiontopic.aspx">FilterExpression</a>:<br>1. If FilterExpression has a custom function operator, it's necessary to find exactly this custom operator and replace its value with an actual one. <br>In the case of Auto Filter Row, this can be done in the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridView_ProcessColumnAutoFiltertopic">ASPxGridView.ProcessColumnAutoFilter</a> event handler as shown below:</p>
