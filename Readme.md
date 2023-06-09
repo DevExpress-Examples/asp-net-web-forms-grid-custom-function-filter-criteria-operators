@@ -9,7 +9,7 @@ This example demonstrates how to use a [CriteriaPatchBase](https://supportcenter
 
 ## Overview
 
-Use the grid's [FilterExpression](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.FilterExpression) property to replace a custom function operator with an actual one. For auto filter row, handle the grid's server-side [ProcessColumnAutoFilter](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.ProcessColumnAutoFilter) event as follows:
+Assign a custom function operator to the grid's [FilterExpression](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.FilterExpression) property. For the auto filter row, handle the grid's server-side [ProcessColumnAutoFilter](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.ProcessColumnAutoFilter) event as follows:
 
 ```cs
 protected void Grid_ProcessColumnAutoFilter(object sender, DevExpress.Web.ASPxGridViewAutoFilterEventArgs e) {
