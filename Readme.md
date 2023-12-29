@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to apply custom function filter criteria operators
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128533360/)**
-<!-- run online end -->
 
 This example demonstrates how to use a [CriteriaPatchBase](https://supportcenter.devexpress.com/ticket/details/t320172/how-to-traverse-through-and-modify-the-criteriaoperator-instances) class descendant to apply a [custom function criteria operator](https://docs.devexpress.com/eXpressAppFramework/113480/filtering/in-list-view/custom-function-criteria-operators).
 
