@@ -48,7 +48,7 @@ protected void Grid_AutoFilterCellEditorInitialize(object sender, ASPxGridViewEd
 
 * [The base implementation of the IClientCriteriaVisitor interface for the CriteriaOperator expression patcher](https://supportcenter.devexpress.com/ticket/details/t320172/how-to-traverse-through-and-modify-the-criteriaoperator-instances)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-custom-function-filter-criteria-operators&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-custom-function-filter-criteria-operators&~~~was_helpful=no)
 
